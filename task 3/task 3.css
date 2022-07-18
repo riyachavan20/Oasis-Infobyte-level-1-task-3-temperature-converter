@@ -1,0 +1,27 @@
+html{scroll-behavior: smooth;}
+
+*{
+ margin: 0;
+ 
+ box-sizing: border-box width="400" height="400";
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+body{
+    background-color: #f8e7af;
+    background:linear-gradient(rgba(0,0,0,0.7) 80%,#e67e22), url("abc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    padding-bottom: 40%;
+    padding-top: 15%;
+    font-size: 2rem;
+    
+}
+form{
+    background-color: #fab1a0;
+    padding: 80px;
+}
